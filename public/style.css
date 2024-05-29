@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5ddd5; /* WhatsApp Web background color */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+
+
+.container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.new-chat-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.new-chat-button {
+    background-color: #25d366; /* WhatsApp Web green color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.new-chat-button:hover {
+    background-color: #128c7e; /* Darker green color on hover */
+}
+
+.new-chat-button:focus {
+    outline: none; /* Remove focus outline */
+}
+
+.chat-box {
+    background-color: #fff;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.chat-from, .chat-to {
+    font-weight: bold;
+    color: #075e54;
+}
+
+.msg-box {
+    background-color: #dcf8c6; /* WhatsApp Web message bubble color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px;
+    margin: 5px 0;
+    position: relative;
+}
+
+.msg-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.edit-form, .delete-form {
+    margin: 0 5px;
+}
+
+.edit-button, .delete-button {
+    background-color: #34b7f1; /* WhatsApp Web blue color */
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #128c7e; /* Darker blue color on hover */
+}
+
+.delete-button {
+    background-color: #f14747; /* Red color for delete */
+}
+
+.delete-button:hover {
+    background-color: #d93939; /* Darker red color on hover */
+}
+
+.chat-timestamp-time, .chat-timestamp-date {
+    font-size: 0.8em;
+    color: #999;
+    margin-top: 10px;
+    text-align: right;
+}
+
+h2 {
+    color: #075e54; /* WhatsApp Web primary color */
+    text-align: center;
+}
+
+.edit-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#chat-msg {
+    width: 100%;
+    max-width: 550px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#update-btn {
+    background-color: #25d366; /* WhatsApp Web green color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+#update-btn:hover {
+    background-color: #128c7e; /* Darker green color on hover */
+}
+
+#update-btn:focus {
+    outline: none; /* Remove focus outline */
+}
+
+
+/* Add this CSS to your style.css file */
+
+ 
+h1, h2 {
+    color: #075e54; /* WhatsApp Web primary color */
+    text-align: center;
+}
+
+.edit-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#chat-msg {
+    width: 100%;
+    max-width: 550px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#update-btn, #delete-btn {
+    background-color: #f14747; /* Red color for delete and update buttons */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+    margin-top: 10px; /* Add some space between buttons */
+}
+
+#update-btn:hover, #delete-btn:hover {
+    background-color: #d93939; /* Darker red color on hover */
+}
+
+#update-btn:focus, #delete-btn:focus {
+    outline: none; /* Remove focus outline */
+}
+
